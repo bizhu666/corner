@@ -1,0 +1,504 @@
+.whole {
+	/*background: url(../img/bg.png) repeat-y;*/
+	height: 100px;
+}
+
+.navbar-toggle {
+	padding: 32px 4px;
+}
+
+.nav {
+	z-index: 9999;
+}
+
+.navbar-brand > img {
+	display: block;
+	width: 334px;
+	height: 80px;
+	line-height: 80px;
+	margin-top: 10px;
+}
+
+.nav>li>a {
+	display: block;
+	color: #c1bfb6;
+	font-size: 16px;
+}
+
+.active1 {
+	font-weight: bold;
+	border-bottom: 2px solid #985F0D;
+}
+
+.nav>li>a:hover {
+	color: darkgoldenrod;
+}
+
+.nav>li {
+	margin-top: 21px;
+}
+
+.navbar-brand {
+	padding: 0;
+}
+
+
+/*introduse*/
+
+.title {
+	text-align: center;
+	padding: 64px 0;
+}
+
+.title h2 {
+	font-size: 26px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.title h2:first-child {
+	color: #94785e;
+}
+
+.title img {
+	display: inline;
+	text-align: center;
+}
+
+.p1 {
+	line-height: 27px;                             
+	text-indent: 2em;
+	color: #363636;
+}
+
+
+/*tradition*/
+
+.tradition a:hover {
+	display: inline-block;
+}
+
+.tradition-img {
+	/*width: 360px;
+	height: 230px;*/
+}
+
+
+/*health*/
+
+.hel {
+	height: 240px;
+	border: 1px solid #EEEEEE;
+	margin-bottom: 25px;
+}
+.heal{
+	margin-bottom: 60px;
+}
+
+.health1 {
+	height: 160px;
+	overflow: hidden;
+}
+
+.health1 img {
+	width: 100%;
+	cursor: pointer;
+	transition: all 0.6s;
+}
+
+.health1 img:hover {
+	transform: scale(1.4);
+}
+
+.health p {
+	margin: 10px;
+	color: #686060;
+}
+
+.chan1 img {
+	/*width: 362px;
+	height: 199px;*/
+	margin-bottom: 20px;
+}
+
+.message {
+	background: url(../img/bbb.png);
+	height: 465px;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.ConMessage {
+	background: none;
+}
+
+.mes {
+	text-align: center;
+}
+
+.mes h2 {
+	margin-top: 30px;
+	font-size: 26px;
+	color: #ECECEC;
+}
+
+.mes .p4 {
+	color: darkgoldenrod;
+	font-size: 18px;
+}
+
+.mes .p1 {
+	color: #cebdae;
+	font-size: 16px;
+}
+
+.mes .p2 {
+	color: #2d2c2c;
+}
+
+.form-control {
+	width: 70%;
+	background: rgba(255, 255, 255, 0.9);
+	border: 1px solid #EEEEEE
+}
+
+.onlineCon {
+	text-align: center;
+}
+
+.onlineCon label {
+	color: #FFFFFF;
+	margin-right: 30px;
+}
+
+.onlineCon input {
+	margin: 0 auto;
+}
+
+.onlineCon button {}
+
+.contact {
+	padding: 17px;
+}
+.contact span{
+	margin-left: 10px;
+}
+.icon {
+	color: orange;
+}
+
+.mask {
+	position: relative;
+	cursor: pointer;
+}
+
+.zhezhao {
+	width: 360px;
+	height: 230px;
+	background: #e7ae5b;
+	position: absolute;
+	left: 15px;
+	top: 0px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+.zhezhao h2 {
+	margin-top: 40px;
+	font-size: 16px;
+}
+
+.zhezhao p {
+	line-height: 24px;
+	margin: 0 10px;
+	color: #EEEEEE;
+}
+
+
+/*************about*************/
+
+.about p {
+	text-indent: 2em;
+	color: #555555;
+	font-size: 14px;
+}
+
+.aboutLi {
+	margin-top: 30px;
+	position: relative;
+}
+
+.aboutLi img:hover {
+	transform: rotatey(180deg);
+	-webkit-transform: rotatey(180deg);
+	-moz-transform: rotatey(180deg);
+	-o-transform: rotatey(180deg);
+	-ms-transform: rotatey(180deg);
+}
+
+.aboutLi img {
+	width: 160px;
+	height: 160px;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	-o-transition: .5s all;
+	-ms-transition: .5s all;
+	font-family: 'Roboto', sans-serif;
+	border: 1px solid #EEEEEE;
+	border-radius: 50%;
+	padding: 4px;
+}
+
+.knowlege h2 {
+	font-size: 14px;
+}
+
+.knowlege p {
+	color: #555555;
+}
+
+.know {
+	height: 260px;
+}
+
+
+/********yoihuihuodong********/
+
+.youhuihuodong {
+	background: #faf5f1;
+	height:600px;
+}
+
+.big {
+	color: #903C15;
+	font-size: 18px;
+}
+
+.youhui {
+	text-align: left;
+	color: #222222;
+}
+
+.youhui p {
+	text-align: center;
+}
+
+.youhui ul {
+	width: 390px;
+	margin: 20px auto;
+	line-height: 50px;
+}
+
+.youhui ul li {
+	color: #a98686;
+}
+
+.youhui ul li:last-child {
+	color: firebrick;
+}
+
+.footer {
+	margin-top: 0;
+}
+
+
+/********meishizhishi********/
+
+.konwlege1 li {
+	letter-spacing: 2px;
+}
+
+.konwlege1 li a {
+	color: #222222;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.meishi {
+	line-height: 30px;
+	width: 348px;
+	margin: 0px auto;
+}
+
+
+/********详细信息********/
+
+.detailList p {
+	text-indent: 2em;
+	color: #737373;
+}
+
+.detailList h2 {
+	text-align: center;
+	font-size: 16px;
+	color: #903C15;
+	padding: 25px;
+}
+
+.detailList ul li {
+	line-height: 24px;
+	color: #737373;
+}
+
+.detailList ul:last-child {
+	margin-bottom: 50px;
+}
+
+
+/********menu********/
+
+.menu {
+	padding: 10px 0;
+	border-bottom: 1px dashed #EEEEEE;
+	margin: 0px 50px;
+}
+
+.menu img {
+	width: 60px;
+	height: 60px;
+}
+
+.menu span {
+	line-height: 60px;
+}
+
+.menu:last-child {
+	border-bottom: none;
+}
+
+.proTitle {
+	margin-left: 116px;
+	margin-top: 30px;
+}
+
+.proTitle a {
+	color: #222222;
+	display: inline-block;
+	padding: 8px 50px;
+	font-size: 18px;
+	text-decoration: none;
+}
+.mask1{
+	background: #FFFFFF;
+	padding: 20px;
+}
+
+/********contact********/
+.me1{
+	margin-top: 60px;
+}
+
+/*.menuWhole{
+	background: #f5f5f5;
+}*/
+
+footer {
+	height: 132px;
+	background: #292929;
+	margin-top: 60px;
+}
+
+footer ul {
+	margin-top: 30px;
+}
+
+footer ul li {
+	color: #FFFFFF;
+	line-height: 26px;
+}
+
+footer p {
+	text-align: center;
+	color: #F7F7F7;
+	margin-top: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 435px) {
+	.p3 {
+		display: none;
+	}
+	.tradition-img {
+		margin-bottom: 10px;
+	}
+	.nav a {
+		color: #FFFFFF;
+	}
+	.footerBottom {
+		display: none;
+	}
+	footer {
+		height: 90px;
+	}
+	.health1 img {
+		padding: 10px;
+	}
+	.nav {
+		background:rgba(0,0,0,0.74);
+		position: fixed;
+		top: 91px;
+		width: 100%;
+		text-align: center;
+	}
+	.nav>li {
+    	margin-top:0
+	}
+	.nav li {
+		cursor: pointer;
+		border-bottom: 1px solid #d2c9a5;
+		padding: 4px 0;
+	}
+	.active1{
+		border: none;
+	}
+	.about p {
+		line-height: 30px;
+	}
+	.aboutLi .mask:nth-child(3) {
+		margin-top: 16px;
+	}
+	.aboutLi .mask:nth-child(4) {
+		margin-top: 16px;
+	}
+	.youhui p:first-child {
+		margin: 0 15px;
+	}
+	.detailList p {
+		margin: 0 15px;
+		line-height: 28px;
+	}
+	.detailList ul li {
+		margin: 0 15px;
+		line-height: 28px;
+	}
+	.nav>li>a {
+		color: #FFFFFF;
+	}
+	.nav>li>a:hover {
+		color: #E4B9B9;
+	}
+	.navbar-brand > img {
+		width: 200px;
+		height: 60px;
+	}
+}
+
+@media only screen and (min-width: 435px) and (max-width: 768px) {
+	footer ul {
+		display: none;
+	}
+	footer {
+		height: 80px;
+	}
+	.none {
+		display: none;
+	}
+	.message {
+		background: none;
+	}
+	.onlineCon label {
+		color: #101010;
+	}
+	.nav>li {
+		margin-top: 22px;
+	}
+}
